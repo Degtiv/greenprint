@@ -1,7 +1,50 @@
-# Tauri + React + Typescript
+# 📊 GreenPrint
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Десктопное приложение для визуализации финансового планирования. Построено на связке **Rust + Tauri + React + TypeScript + Vite + D3.js**.
 
-## Recommended IDE Setup
+## ✨ Возможности
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- 📈 **Интерактивная столбчатая диаграмма** — наглядная визуализация данных о продажах
+- ➕ **Динамическое добавление данных** — добавляйте новые записи через форму (год и количество продаж)
+- 🗑️ **Удаление записей** — управляйте данными в реальном времени
+- 🎨 **Современный дизайн** — градиенты, анимации, плавные переходы
+- 🖱️ **Всплывающие подсказки** — наведите на столбец для подробной информации
+- 🦀 **Rust бэкенд** — данные хранятся и обрабатываются на стороне Rust
+- 💻 **Кроссплатформенность** — macOS и Windows из коробки
+
+## 🛠️ Технологический стек
+
+| Технология | Назначение |
+|------------|------------|
+| [Rust](https://www.rust-lang.org/) | Бэкенд, хранение и обработка данных |
+| [Tauri v2](https://v2.tauri.app/) | Десктопная оболочка, связка фронтенда и бэкенда |
+| [React](https://react.dev/) | UI-фреймворк |
+| [TypeScript](https://www.typescriptlang.org/) | Типизированный JavaScript |
+| [Vite](https://vitejs.dev/) | Сборщик фронтенда |
+| [D3.js](https://d3js.org/) | Визуализация данных |
+
+## 🚀 Быстрый старт
+
+### Предварительные требования
+
+- **Rust** (установите через [rustup](https://rustup.rs/))
+- **Node.js** 18+ (установите через [nvm](https://github.com/nvm-sh/nvm) или [официальный сайт](https://nodejs.org/))
+- **npm** или **yarn**
+
+### Установка и запуск
+
+```bash
+# 1. Клонируйте репозиторий
+git clone https://github.com/degtiv/greenprint.git
+cd greenprint
+
+# 2. Установите зависимости фронтенда
+npm install
+
+# 3. Установите D3.js
+npm install d3
+npm install --save-dev @types/d3
+
+# 4. Запустите в режиме разработки
+npm run tauri dev
+```

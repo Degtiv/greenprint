@@ -43,11 +43,11 @@ jobs:
           TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
         with:
           tagName: ${{ github.ref_name || inputs.version }}
-          releaseName: 'iPhone Sales Chart ${{ github.ref_name || inputs.version }}'
+          releaseName: 'Green Print ${{ github.ref_name || inputs.version }}'
           releaseBody: |
-            ## 📱 iPhone Sales Chart
+            ## 📱 GreenPrint
             
-            Приложение для просмотра статистики продаж iPhone по годам.
+            Десктопное приложение для визуализации финансового планирования.
             
             ### Установка
             - **macOS**: Скачайте `.dmg` файл, откройте и перетащите приложение в папку Applications
@@ -91,11 +91,11 @@ jobs:
           TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
         with:
           tagName: ${{ github.ref_name || inputs.version }}
-          releaseName: 'iPhone Sales Chart ${{ github.ref_name || inputs.version }}'
+          releaseName: 'GreenPrint ${{ github.ref_name || inputs.version }}'
           releaseBody: |
-            ## 📱 iPhone Sales Chart
+            ## 📱 GreenPrint
             
-            Приложение для просмотра статистики продаж iPhone по годам.
+            Десктопное приложение для визуализации финансового планирования.
             
             ### Установка
             - **Windows**: Скачайте `.msi` файл и запустите установщик

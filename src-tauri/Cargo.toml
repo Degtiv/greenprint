@@ -1,12 +1,12 @@
 [package]
-name = "iphone-sales-chart"
-version = "0.1.0"
+name = "greenprint"
+version = "0.1.1"
 description = "A Tauri App"
-authors = ["you"]
-edition = "2021"
+authors = ["Degtiv"]
+edition = "2024"
 
 [lib]
-name = "iphone_sales_chart_lib"
+name = "greenprint_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]

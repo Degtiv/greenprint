@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/nickolay/tauri-docs/schema-v2/tauri.conf.json",
-  "productName": "iPhone Sales Chart",
-  "version": "0.1.0",
-  "identifier": "com.iphonesales.chart",
+  "productName": "GreenPrint",
+  "version": "0.2.0",
+  "identifier": "com.greenprint",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,13 +12,14 @@
   "app": {
     "windows": [
       {
-        "title": "iPhone Sales Chart",
-        "width": 900,
-        "height": 650,
+        "title": "GreenPrint",
+        "width": 1200,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 700,
         "resizable": true,
         "fullscreen": false,
-        "minWidth": 800,
-        "minHeight": 600
+        "center": true
       }
     ],
     "security": {
